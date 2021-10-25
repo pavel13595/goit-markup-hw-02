@@ -1,0 +1,193 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-text-color: #2196f3;
+  --accent-white-color: #ffffff;
+}
+body {
+  background-color: var(--accent-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+/* Шапка */
+.header {
+  letter-spacing: 0.02em;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.logo {
+  color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-color {
+  color: var(--accent-text-color);
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-contacts .link {
+  color: var(--text-color);
+}
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  color: var(--accent-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Особености */
+.feature {
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* чем мы занимаемся */
+.prof .prof-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* Команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team-profession {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+/* Подвал */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--accent-white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.address {
+  color: var(--accent-white-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--accent-text-color);
+}
+/* Кнопки */
+.button {
+  background-color: var(--accent-text-color);
+  color: var(--accent-white-color);
+  cursor: pointer;
+  font-family: inherit;
+}
+.button.primary {
+  background-color: var(--accent-text-color);
+  color: var(--accent-white-color);
+}
+.button.secondary {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+.button.secondary:hover {
+  background-color: var(--accent-text-color);
+}
+.button.secondary:focus {
+  background-color: var(--accent-text-color);
+}
+.button.hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.button.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+/* Портфолио */
+.portfolio-title {
+  visibility: hidden;
+}
+.portfolio-technolology {
+  color: var(--text-color);
+}
+.portfolio-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-technolology {
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* Основоной цвет текста  #212121*/
+/* Вторичный цвет текста #757575 */
+/* акцент  #2196F3 */
+/* белый #FFFFFF */
+/* цвет в футуре rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #F5F4FA */ ;
